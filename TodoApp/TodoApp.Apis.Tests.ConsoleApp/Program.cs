@@ -13,7 +13,7 @@ namespace TodoApp.Apis.Tests.ConsoleApp
     {
         static async void Main()
         {
-            const string url = "https://localhost:7174/apu/Todos";
+            const string url = "https://localhost:7174/api/Todos";
             //  
             using (var client = new HttpClient())
             {
