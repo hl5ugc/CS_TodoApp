@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TodoApp.ConsoleApp1", "Todo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TodoApp.ConsoleFile", "TodoApp.ConsoleFile\TodoApp.ConsoleFile.csproj", "{78ABD811-34E7-446F-8187-55543EF70F05}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TodoApp.WinFormsApp", "TodoApp.WinFormsApp\TodoApp.WinFormsApp.csproj", "{B717F3A3-4774-4CAE-8259-157C1B1B5337}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,6 +31,10 @@ Global
 		{78ABD811-34E7-446F-8187-55543EF70F05}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{78ABD811-34E7-446F-8187-55543EF70F05}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{78ABD811-34E7-446F-8187-55543EF70F05}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B717F3A3-4774-4CAE-8259-157C1B1B5337}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B717F3A3-4774-4CAE-8259-157C1B1B5337}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B717F3A3-4774-4CAE-8259-157C1B1B5337}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B717F3A3-4774-4CAE-8259-157C1B1B5337}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -36,6 +42,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{1AA09E9B-9EFD-4557-9BB4-121265146579} = {02D02FFF-5658-4955-A8F4-8A5664829247}
 		{78ABD811-34E7-446F-8187-55543EF70F05} = {02D02FFF-5658-4955-A8F4-8A5664829247}
+		{B717F3A3-4774-4CAE-8259-157C1B1B5337} = {02D02FFF-5658-4955-A8F4-8A5664829247}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {69BC44F3-3DC7-4AEA-BBFB-EB5CD0AEF721}
