@@ -11,7 +11,7 @@ using TodoApp.Models;
         Console.WriteLine($"{t.Id} - {t.Title}({t.IsDone})");
     }
     // [2] 데이타 입력
-    Todo todo = new Todo { Title = "Database", IsDone = true };
+    Todo todo = new Todo { Title = "Database 학습", IsDone = true };
     _repository.Add(todo);
     todos = _repository.GetAll();
 
@@ -20,3 +20,4 @@ using TodoApp.Models;
         Console.WriteLine($"{t.Id} - {t.Title}({t.IsDone})");
     }
 
+    

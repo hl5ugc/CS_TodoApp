@@ -8,6 +8,7 @@ namespace TodoApp.Models
     {
         void Add(Todo model);   // 입력용 메서드 시그니처
         List<Todo> GetAll();    // 출력
+        void Detail();
     }
 
 }

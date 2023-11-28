@@ -26,6 +26,14 @@ namespace TodoApp.Models
         {
             return _todoList.ToList(); // ToList()생략 가능
         }
+        public void Detail()
+        {
+            foreach (var t in _todoList)
+            {
+                Console.WriteLine($"{t.Id} : {t.Title}({t.IsDone})");
+            }
+            Console.WriteLine();
+        }
     }
 
 }
