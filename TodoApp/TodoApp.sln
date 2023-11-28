@@ -3,15 +3,21 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34316.72
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TodoApp.Models", "TodoApp.Models\TodoApp.Models.csproj", "{3374279A-65F0-472E-8AD8-7697AD21C6B2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TodoApp.Models", "TodoApp.Models\TodoApp.Models.csproj", "{3374279A-65F0-472E-8AD8-7697AD21C6B2}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{02D02FFF-5658-4955-A8F4-8A5664829247}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TodoApp.ConsoleApp1", "TodoApp.ConsoleApp1\TodoApp.ConsoleApp1.csproj", "{1AA09E9B-9EFD-4557-9BB4-121265146579}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TodoApp.ConsoleApp1", "TodoApp.ConsoleApp1\TodoApp.ConsoleApp1.csproj", "{1AA09E9B-9EFD-4557-9BB4-121265146579}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TodoApp.ConsoleFile", "TodoApp.ConsoleFile\TodoApp.ConsoleFile.csproj", "{78ABD811-34E7-446F-8187-55543EF70F05}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TodoApp.ConsoleFile", "TodoApp.ConsoleFile\TodoApp.ConsoleFile.csproj", "{78ABD811-34E7-446F-8187-55543EF70F05}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TodoApp.WinFormsApp", "TodoApp.WinFormsApp\TodoApp.WinFormsApp.csproj", "{B717F3A3-4774-4CAE-8259-157C1B1B5337}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TodoApp.WinFormsApp", "TodoApp.WinFormsApp\TodoApp.WinFormsApp.csproj", "{B717F3A3-4774-4CAE-8259-157C1B1B5337}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{1C90883D-F2BC-4808-9F87-A9C6E132A178}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TodoApp.Apis", "TodoApp.Apis\TodoApp.Apis.csproj", "{A37E1AE2-7013-4D08-974C-14947BD4498F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TodoApp.Apis.Tests.ConsoleApp", "TodoApp.Apis.Tests.ConsoleApp\TodoApp.Apis.Tests.ConsoleApp.csproj", "{DCF37586-20D7-40B4-8274-E81B4C888AE7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,6 +41,14 @@ Global
 		{B717F3A3-4774-4CAE-8259-157C1B1B5337}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B717F3A3-4774-4CAE-8259-157C1B1B5337}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B717F3A3-4774-4CAE-8259-157C1B1B5337}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A37E1AE2-7013-4D08-974C-14947BD4498F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A37E1AE2-7013-4D08-974C-14947BD4498F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A37E1AE2-7013-4D08-974C-14947BD4498F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A37E1AE2-7013-4D08-974C-14947BD4498F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DCF37586-20D7-40B4-8274-E81B4C888AE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCF37586-20D7-40B4-8274-E81B4C888AE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCF37586-20D7-40B4-8274-E81B4C888AE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCF37586-20D7-40B4-8274-E81B4C888AE7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -43,6 +57,8 @@ Global
 		{1AA09E9B-9EFD-4557-9BB4-121265146579} = {02D02FFF-5658-4955-A8F4-8A5664829247}
 		{78ABD811-34E7-446F-8187-55543EF70F05} = {02D02FFF-5658-4955-A8F4-8A5664829247}
 		{B717F3A3-4774-4CAE-8259-157C1B1B5337} = {02D02FFF-5658-4955-A8F4-8A5664829247}
+		{A37E1AE2-7013-4D08-974C-14947BD4498F} = {1C90883D-F2BC-4808-9F87-A9C6E132A178}
+		{DCF37586-20D7-40B4-8274-E81B4C888AE7} = {1C90883D-F2BC-4808-9F87-A9C6E132A178}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {69BC44F3-3DC7-4AEA-BBFB-EB5CD0AEF721}

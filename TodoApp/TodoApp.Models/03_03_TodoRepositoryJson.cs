@@ -12,7 +12,7 @@ namespace TodoApp.Models
         public TodoRepositoryJson(string filePath = @"C:\temp\Todos.json")
         {
             this._filePath = filePath;
-            string?  todos = File.ReadAllText(filePath, Encoding.Default); // json file Nuget 사용
+            string todos = File.ReadAllText(filePath, Encoding.Default)   ; // json file Nuget 사용
             if (!String.IsNullOrEmpty(todos))
             {
                 _todos = JsonConvert.DeserializeObject<List<Todo>>(todos);
